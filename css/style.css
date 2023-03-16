@@ -1,0 +1,27 @@
+body {
+  background-color: #ffffff;
+}
+
+.link {
+  font: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.web {
+  color: #2196f3;
+}
+
+.studio {
+  color: #000000;
+}
+
+.studio:active {
+  color: #2196f3;
+}
+
+.web:hover .studio:hover .list-item:hover,
+.mail:hover,
+.tel:hover {
+  color: #2196f3;
+}
